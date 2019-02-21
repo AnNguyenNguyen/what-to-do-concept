@@ -1,0 +1,67 @@
+body{
+    background-color: rgb(219, 219, 219);
+    text-align: left;
+}
+
+/* .img{
+    width: 50px;
+} */
+header{
+    background-color: aqua;
+    height: 4em;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+main{
+    /* padding: 1em; */
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+
+}
+
+h1{
+    font-size: 2em;
+    color: rgb(83, 83, 83);
+    text-align: center;
+    grid-column: 1 / 2;
+    background-color: rgb(119, 223, 64);
+
+}
+
+footer{
+    text-align: center;
+    background-color: bisque;
+    height: 3em;
+
+}
+
+button{
+  background-color: rgb(128, 46, 210);
+  color: #ffffff;
+  font-size: 11px;
+  padding: 1.1em;
+  border: 0px;
+  text-transform: uppercase;
+}
+
+.burger-button{
+    grid-column: 5 / 6;
+    width: 50px;
+}
+
+.user-button{
+    grid-column: 1;
+    grid-row: 1;
+
+
+}
+
+.complete {
+    text-decoration: line-through;
+  }
+
+.taks-layout{
+  grid-column: 2 / 6;
+  background-color: rgb(223, 177, 64);
+}
