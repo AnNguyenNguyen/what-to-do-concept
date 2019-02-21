@@ -59,6 +59,7 @@ button{
 
 .complete {
     text-decoration: line-through;
+    color: red;
   }
 
 .taks-layout{
