@@ -1,16 +1,29 @@
+font-family: 'Staatliches', cursive;
+font-family: 'Hind Siliguri', sans-serif;
+
+
+
 body{
     background-color: rgb(219, 219, 219);
     text-align: left;
+    font-family: 'Staatliches', cursive;
 }
 
 /* .img{
     width: 50px;
 } */
 header{
-    background-color: aqua;
+    background-color: rgb(230, 225, 225);
     height: 4em;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    text-align: center;
+    margin: auto;
+}
+
+.task-style{
+  font-family: 'Hind Siliguri', sans-serif;
+  font-weight: 400;
 }
 
 main{
@@ -21,48 +34,69 @@ main{
 }
 
 h1{
-    font-size: 2em;
+    font-family: 'Staatliches', cursive;
+    font-weight: bold;
+    font-size: 1.5em;
+    padding: 0.5em;
     color: rgb(83, 83, 83);
     text-align: center;
     grid-column: 1 / 2;
-    background-color: rgb(119, 223, 64);
+    background-color: #65C8D0;
 
 }
 
 footer{
-    text-align: center;
-    background-color: bisque;
-    height: 3em;
+    text-align: right;
+    padding-right: 1.5em;
+    background-color: rgb(230, 225, 225);
+    height: 4em;
+    /* margin: auto; */
+    /* display: block; */
 
 }
 
 button{
-  background-color: rgb(128, 46, 210);
+  background-color: #FF33FF;
   color: #ffffff;
-  font-size: 11px;
-  padding: 1.1em;
+  font-size: 1.5em;
+  padding: 0.5em;
   border: 0px;
-  text-transform: uppercase;
+  font-family: 'Staatliches', cursive;
+
 }
+
+
 
 .burger-button{
     grid-column: 5 / 6;
-    width: 50px;
+    width: 40px;
+    display: block;
+    margin: auto;
+
 }
 
 .user-button{
     grid-column: 1;
     grid-row: 1;
-
-
+    width: 40px;
+    display: block;
+    margin: auto;
 }
-
-.complete {
-    text-decoration: line-through;
-    color: red;
-  }
 
 .taks-layout{
   grid-column: 2 / 6;
   background-color: rgb(223, 177, 64);
+  /* padding: 1em; */
+}
+
+.complete {
+    background-color: #99a1d9;
+    color: rgb(83, 83, 83);
+    padding: 1em;
+  }
+
+.task-available{
+background-color: #838BC5;
+color: rgb(255, 255, 255);
+padding: 1em;
 }
